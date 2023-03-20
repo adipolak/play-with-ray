@@ -9,3 +9,5 @@ clone the repo, cd and run:
 ```bash
 docker run -it --memory="28g" --memory-swap="30g"  -p 8888:8888 --mount type=bind,source=$(pwd),target=/home/jovyan adipolak/ml-with-apache-spark
 ```
+
+This repo is based on the [Ray quickstart guide](https://docs.ray.io/en/latest/ray-overview/getting-started.html). 
